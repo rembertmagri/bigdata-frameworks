@@ -1,7 +1,7 @@
 # Word Count on Big Data
 
 ## Purpose
-> To run a word count program on Big Data (Gutenberg Project Files: https://www.gutenberg.org/) using Hadoop and Spark to compare the performance between the two frameworks
+> To run a word count program on Big Data (Gutenberg Project Files: https://www.gutenberg.org/) using Hadoop's MapReduce and Spark to compare the performance of both Big Data execution frameworks
 
 ## Step 0-0) Data Acquisition and Preparation
 > Every Machine should have at least 100GB HD
@@ -544,3 +544,5 @@
 * MapReduce execution time: 5 hours 30 minutes
 * Spark on YARN execution time: 18 minutes
 * Spark Standalone cluster execution time: 22 minutes
+
+This confirms what Apache Spark claims: that it is at least 10x faster than Hadoop's MapReduce.
