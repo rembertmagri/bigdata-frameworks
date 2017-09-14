@@ -1,4 +1,4 @@
-# Word Count on Big Data
+# Big Data - MapReduce and Spark performance comparison
 
 ## Purpose
 > To run a word count program on Big Data (Gutenberg Project Files: https://www.gutenberg.org/) using Hadoop's MapReduce and Spark to compare the performance of both Big Data execution frameworks
